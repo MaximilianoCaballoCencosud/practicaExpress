@@ -17,3 +17,5 @@ app.listen(PORT, (req,res)=> {
     console.log(`Servidor escuchando en el puerto ${PORT}`)
 
 })
+
+app.use(express.static('public'));
