@@ -3,10 +3,11 @@ const app = express()
 
 const PORT = 3030
 
+app.use(express.static('public'))
 
 app.get('/', (req,res)=>{
 
-    app.render(__dirname + 'index.html', {
+    res.render(__dirname + 'index.html', {
     })
 
 })
