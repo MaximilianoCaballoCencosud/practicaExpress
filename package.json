@@ -1,0 +1,22 @@
+{
+  "name": "practicaexpress",
+  "version": "1.0.0",
+  "description": "practicaExpress",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianoCaballoCencosud/practicaExpress.git"
+  },
+  "author": "Maximiliano Caballo <pablo.caballo@cencosud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximilianoCaballoCencosud/practicaExpress/issues"
+  },
+  "homepage": "https://github.com/MaximilianoCaballoCencosud/practicaExpress#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
