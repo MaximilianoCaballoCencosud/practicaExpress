@@ -19,4 +19,3 @@ app.listen(PORT, (req,res)=> {
 
 })
 
-app.use(express.static('public'));
