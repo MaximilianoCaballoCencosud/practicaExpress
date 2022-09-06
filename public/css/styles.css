@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --amarillo: #EAC926;
     --azul: #03264C;
@@ -6,7 +8,6 @@
     --grisclaro: #ebebeb;
     --verde: #39b54a;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 * {
