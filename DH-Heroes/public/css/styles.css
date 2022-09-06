@@ -12,3 +12,38 @@
 * {
 font-family: 'Roboto', 'sans-serif';
 }
+
+img{
+    width: 80px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.header-button{
+    font-size: 12px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+ul li:nth-child(2), ul li:nth-child(3){
+    font-size: 16px;
+}
+
+ul li:first-child {
+    font-size: 18px;
+}
+
+footer strong{
+    font-size: 24px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
