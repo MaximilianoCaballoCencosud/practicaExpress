@@ -1,0 +1,28 @@
+header input{
+    display: none;
+}
+
+header nav{
+    display: none;
+}
+
+
+
+@media only screen and (min-width:361px) {
+
+    header span {
+        display: none;
+    } 
+     .header nav{
+        display: block;
+    }
+
+    .header input{
+        display: block;
+    }
+    
+
+}
+
+
+

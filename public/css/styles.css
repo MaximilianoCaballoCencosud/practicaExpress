@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('/css/main.css');
+@import url('/css/header.css');
 
 :root {
     --amarillo: #EAC926;
@@ -11,10 +13,10 @@
 
 
 * {
-font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
 }
 
-img{
+img {
     width: 80px;
 }
 
@@ -22,7 +24,7 @@ i {
     font-size: 30px;
 }
 
-.header-button{
+.header-button {
     font-size: 12px;
 }
 
@@ -30,7 +32,8 @@ i {
     font-size: 24px;
 }
 
-ul li:nth-child(2), ul li:nth-child(3){
+ul li:nth-child(2),
+ul li:nth-child(3) {
     font-size: 16px;
 }
 
@@ -38,7 +41,7 @@ ul li:first-child {
     font-size: 18px;
 }
 
-footer strong{
+footer strong {
     font-size: 24px;
 }
 
@@ -47,4 +50,3 @@ footer div {
     flex-direction: column;
     text-align: center;
 }
-
