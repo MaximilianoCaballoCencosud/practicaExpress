@@ -1,0 +1,14 @@
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisoscuro: #666;
+    --grisclaro: #ebebeb;
+    --verde: #39b54a;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+font-family: 'Roboto', 'sans-serif';
+}
