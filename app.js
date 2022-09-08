@@ -1,17 +1,22 @@
-const express = require('express')
-const app = express()
-const path = require('path')
+const express = require("express");
+const app = express();
+const path = require("path");
 
-const PORT = 3030
+const PORT = 3030;
 
-app.use(express.static('public'))
+app.use(express.static("public"));
 
-app.get('/', (req,res)=>{
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "views/home.html"));
+});
 
-    res.sendFile( path.join(__dirname, 'views/home.html'));
-    });
-app.listen(PORT, (req,res)=> {
+app.get("/register", (req, res) => {
+  res.sendFile(path.join(__dirname, "views/register.html"));
+});
+app.get("/login", (req, res) => {
+  res.sendFile(path.join(__dirname, "views/login.html"));
+});
 
-    console.log(`Servidor escuchando en el puerto ${PORT}`)
-
-})
+app.listen(PORT, (req, res) => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
+});
