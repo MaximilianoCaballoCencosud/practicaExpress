@@ -1,33 +1,65 @@
 .main {
-width: 90%;
-text-align: center;
+  /* width: 90%; */
+  text-align: center;
 }
 
-li{list-style: none;}
-
-article{
-    margin-top: 10px
+li {
+  list-style: none;
 }
 
-
-div li{
-    border-top: 1px solid #ebebeb;
-    padding: 0px 15px ;
+article {
+  margin-top: 10px;
+}
+.setMainPlace {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
+div li {
+  border-top: 1px solid #ebebeb;
+  padding: 0px 15px;
+}
 
 article div {
+  display: block;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  div article div {
     display: none;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  div article img {
+    width: 50vh;
+    margin-top: 30px;
+  }
 }
 
-
-@media only screen and (min-width:361px) {
-
-    article div {
-        display: block;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  div article div {
+    display: none;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  div article img {
+    width: 34vh;
+    margin-top: 30px;
+  }
+  /* CSS */
 }
 
-@media only screen and (min-width:769px) {
+@media (min-width: 1025px) {
+  main section div {
+    gap: 40px;
+  }
+  div article div {
+    /* display: none; */
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  div article img {
+    width: 25vh;
+    margin-top: 30px;
+  }
 }

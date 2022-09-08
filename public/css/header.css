@@ -1,28 +1,57 @@
-header input{
+header {
+  min-width: 361px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+span img {
+  border-radius: 40px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+/* Celulares */
+@media (min-width: 320px) and (max-width: 767px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav div {
+    display: flex;
+    align-items: center;
+  }
+  .header nav {
+    display: block;
+  }
+  .header input {
+    display: block;
+  }
+  header span {
     display: none;
+  }
+  body {
+    background-color: orange;
+  }
 }
 
-header nav{
-    display: none;
+/* Tablas */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
 }
 
-
-
-@media only screen and (min-width:361px) {
-
-    header span {
-        display: none;
-    } 
-     .header nav{
-        display: block;
-    }
-
-    .header input{
-        display: block;
-    }
-    
-
+/* Desktop */
+@media (min-width: 1025px) {
+  body {
+    background-color: yellow;
+  }
 }
-
-
-
