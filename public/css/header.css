@@ -1,17 +1,20 @@
 header {
   min-width: 361px;
+
 }
 
 nav {
   display: flex;
   justify-content: space-between;
 }
-span img {
-  border-radius: 40px;
-}
 nav div {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
+  justify-content: center;
+  gap: 18px;
+}
+span img {
+  border-radius: 40px;
 }
 h1 {
   text-align: center;
@@ -20,14 +23,30 @@ h1 {
 }
 /* Celulares */
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .logosearch{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+  #search{
+    width: 80vw;
+    max-width: 300px;
+    text-align: center;
+  }
+
   nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap:wrap;
+    border-radius: 2px blue solid;
   }
-  nav div {
+  /* nav div {
     display: flex;
     align-items: center;
-  }
+  } */
+
   .header nav {
     display: block;
   }
@@ -46,6 +65,12 @@ h1 {
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     background-color: blue;
+    
+  }
+  .logosearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
   }
 }
 
@@ -53,5 +78,10 @@ h1 {
 @media (min-width: 1025px) {
   body {
     background-color: yellow;
+  }
+  .logosearch{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
   }
 }

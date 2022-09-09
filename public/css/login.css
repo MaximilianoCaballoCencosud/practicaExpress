@@ -1,3 +1,23 @@
-body {
-  background-color: red;
+body{
+  display: flex;
+  justify-content: center;
+
+  align-items: center;    
+}
+form{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  /* width: 50vw; */
+
+}
+
+fieldset { 
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.elements{
+  margin: 10px;
 }

@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
   </head>
   <body>
-    <form action="">
-      <input type="text" />
-      <input type="password" />
-
-      <button type="submit"></button>
+    <form action="/">
+      <fieldset>
+        <div class="elements">
+        <legend>Login</legend>
+        <label for="login">User</label>
+        <input id="login" type="text" placeholder="...username..." required>
+      </div>
+      <div class="elements">
+        <label for="pass">Pass</label>
+        <input id="pass" type="password" placeholder="...pass..." minlength="6" required >        
+      </div>
+      <button class="elements" type="submit">Sing In</button>
+      </fieldset>
     </form>
   </body>
 </html>
