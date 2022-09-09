@@ -25,7 +25,7 @@ input{
   border-radius: 10px;
 }
 /* Celulares */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
   .logosearch{
     display: flex;
