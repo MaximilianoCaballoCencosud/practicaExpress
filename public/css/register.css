@@ -1,3 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+
+}
+
 fieldset {
   border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+div{
+  margin: 5px 0px;
+}
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  width: 380px;
+  min-height: auto;
+  gap: 10px;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+
+}
+.element div {
+display: flex;
+  flex-wrap: wrap;
+  gap: 15px  ;
+  justify-content: center;
+}
+
+.dataUser {
+  display: inline-block;
+  justify-content: center;
+}
+.userProfile{
+  display: inline-block;
+  justify-content: center;
+}
+.category {
+  display: inline-block;  
+  justify-content: center;
 }

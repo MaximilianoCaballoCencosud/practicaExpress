@@ -1,0 +1,27 @@
+.envio:hover .camion {
+    transition: 500ms;
+    transform: rotate(360deg);
+
+
+}
+
+@media (min-width: 1025px) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    footer div{
+        padding: 0px 20px ;
+        text-align: center;
+        align-items: center;
+
+    
+    }
+    #envio{
+        border-left: 2px solid rgba(114, 106, 110, 0.34);
+        border-right: 2px solid rgba(114, 106, 110, 0.34);
+
+    }
+}

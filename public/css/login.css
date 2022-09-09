@@ -12,6 +12,11 @@ form{
   /* width: 50vw; */
 
 }
+button:hover {
+  transition: 500ms;
+  background-color: #0022AA;
+  color: #fff;
+}
 
 fieldset { 
   border-radius: 20px;
