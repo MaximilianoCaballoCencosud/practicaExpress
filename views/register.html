@@ -1,79 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/register.css" />
-    <title>REGISTER</title>
-  </head>
-  <body>
-    <section>
-      <form action="">
-        <fieldset>
-          <legend>Registro</legend>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/register.css" />
+  <title>REGISTER</title>
+</head>
+
+<body>
+  <section>
+    <form action="/">
+      <fieldset>
+        <legend>Registro</legend>
+        <div class="element dataUser">
           <div>
-            <div>
+            <h3>Data User</h3>
+          </div>
+          <div>
             <label for="name-surename">Full name</label>
             <input id="name-surname" type="text" placeholder="Full name" />
-            </div>
-            <div>
+          </div>
+          <div>
             <label for="username">Username</label>
             <input id="username" type="text" placeholder="Username" />
-            </div>
-            <div>
-              <label for="date">Date</label>
-              <input id="date" type="date" placeholder="XX-XX-XX" />
-            </div>
-            <div>
-              <label for="addres">Addres</label>
-              <input id="addres" type="text" placeholder="Addres" />
-            </div>
-            <div>
-              <label for="password">Password</label>
-              <input type="password" id="password" />
-            </div>
-            <div>
-              <label for="password2">Re-Password</label>
-              <input type="password" id="password2" id="confirmarPassword" />
-            </div>
           </div>
+          <div>
+            <label for="date">Date</label>
+            <input id="date" type="date" placeholder="XX-XX-XX" />
+          </div>
+          <div>
+            <label for="addres">Addres</label>
+            <input id="addres" type="text" placeholder="Addres" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+          <div>
+            <label for="password2">Re-Password</label>
+            <input type="password" id="password2" id="confirmarPassword" />
+          </div>
+        </div>
 
+        <div class="element userProfile">
           <div>
             <h3>User Profile</h3>
+          </div>
+          <div>
+
             
             <label for="seller">Seller</label>
             <input id="seller" name="use" type="radio" value="seller" />
             <label for="buyer">Buyer</label>
             <input id="buyer" name="use" type="radio" value="buyer" />
+            
           </div>
 
+        </div>
+        <div class="element category">
           <div>
             <h3>Category</h3>
-
+          </div>
+          <div>
             <label for="electronic">Electronic</label>
             <input type="checkbox" name="electronic" id="" value="Electronic" />
-            <label for="fashion">Fashion</label>
-            <input type="checkbox" name="" id="fashion" value="fashion" />
-            <label for="fashion">Home</label>
-            <input type="checkbox" name="" id="home" value="home" />
-            <label for="toys">Toys</label>
-            <input type="checkbox" name="" id="toys" value="toys" />
-            <label for="healthylife">Healthylife</label>
-            <input
-              type="checkbox"
-              name=""
-              id="healthylife"
-              value="healthylife"
-            />
           </div>
-
           <div>
-            <button type="submit">CREA TU CUENTA</button>
-            <button type="reset">DELETE FORM</button>
+            <label for="fashion">Fashion</label>
+            <input type="checkbox" name="fashion" id="fashion" value="fashion" />
           </div>
-        </fieldset>
-      </form>
-    </section>
-  </body>
+          <div>
+            <label for="fashion">Home</label>
+            <input type="checkbox" name="home" id="home" value="home" />
+          </div>
+          <div>
+            <label for="toys">Toys</label>
+            <input type="checkbox" name="toys" id="toys" value="toys" />
+          </div>
+          <div>
+            <label for="healthylife">Healthylife</label>
+            <input type="checkbox" name="" id="healthylife" value="healthylife" />
+          </div>
+        </div>
+        <div class="element footerForm">
+          <button type="submit">CREA TU CUENTA</button>
+          <button type="reset">DELETE FORM</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+</body>
+
 </html>
